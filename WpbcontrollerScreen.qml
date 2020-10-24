@@ -204,7 +204,7 @@ Screen {
 		anchors.bottom: enableAutoOnToggle.bottom
 		anchors.leftMargin: 10
 		onClicked: {
-			qdialog.showDialog(qdialog.SizeLarge, "WPB automatisch aan", "Hiermee wordt de URL voor WPB aanschakelen aangeroepen als de temperatuur daalt onder de ingestelde temperatuur. Er wordt alleen eenmalig geschakeld als de temperatuur eerst onder deze ingestelde temperatuur is gezakt. Let op: verdere werking is afhankelijk van wat er achter deze URL zit.\n", "Sluiten");
+			qdialog.showDialog(qdialog.SizeLarge, "WPB automatisch aan", "Hiermee wordt de URL voor WPB aanschakelen aangeroepen als de temperatuur lager of gelijk is aan de ingestelde temperatuur. Er wordt alleen eenmalig geschakeld als de temperatuur eerst boven deze ingestelde temperatuur is gestegen. Let op: verdere werking is afhankelijk van wat er achter deze URL zit.\n", "Sluiten");
 		}
 	}
 
