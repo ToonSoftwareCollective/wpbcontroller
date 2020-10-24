@@ -272,7 +272,7 @@ Screen {
 			top: enableAutoOffLabel.bottom
 			topMargin: 5
 		}
-//		label: "WPB aan"
+//		label: "WPB uit"
 //			color: app.thermStateColor[app.thermStateAway]
 		temperature: app.tempWPBOff
 
@@ -329,7 +329,7 @@ Screen {
 	}
 
     ListView {
-            id: toonBotListView
+            id: wpbcontrollerListView
 
             model: wpbcontrollerModel
             delegate: Rectangle

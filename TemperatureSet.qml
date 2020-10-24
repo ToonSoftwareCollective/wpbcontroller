@@ -12,37 +12,9 @@ Column {
 	width: Math.round(165 * horizontalScaling);
 	spacing: Math.round(4 * verticalScaling)
 
-//	property alias label: label.text
-//	property alias color: modeColor.color
 	property alias temperature: modeValue.value
 	property int textColorGap: 2
-//	property string kpiPrefix: "TemperaturePresetScreen." + label.text + "."
 
-/*
-	Text {
-		id: label
-
-		font.family: qfont.semiBold.name
-		font.pixelSize: qfont.navigationTitle
-
-		color: colors.tpModeLabel
-	}
-
-	Item {
-		height: Math.round(textColorGap * verticalScaling)
-		width: 1
-	}
-
-	StyledRectangle {
-		id: modeColor
-
-		width:parent.width
-		height: Math.round(16 * verticalScaling)
-		radius: designElements.radius
-		bottomLeftRadiusRatio: 0
-		bottomRightRadiusRatio: 0
-	}
-*/
 	NumberSpinner {
 		id: modeValue
 
