@@ -42,39 +42,6 @@ Tile {
 		clip: true
 	}
 
-/*
-	Text {
-		id: cmdText
-		text: "Laatste commando"
-		anchors {
-			top: tiletitle.bottom
-			topMargin: 25
-			horizontalCenter: parent.horizontalCenter
-		}
-		font {
-			family: qfont.bold.name
-			pixelSize: isNxt ? 22 : 18
-		}
-		color: colors.waTileTextColor
-       	visible: !dimState
-	}
-
-	Text {
-		id: txtCmd
-		text: app.tileLastcmd
-		color: colors.clockTileColor
-		anchors {
-			top: cmdText.bottom
-			horizontalCenter: parent.horizontalCenter
-		}
-		width : parent.width - 5
-		horizontalAlignment : Text.AlignHCenter
-		font.pixelSize: isNxt ? 20 : 16
-		font.family: qfont.italic.name
-       	visible: !dimState
-		clip: true
-	}
-*/
 	Text {
 		id: statusText
 		text: "Status"
