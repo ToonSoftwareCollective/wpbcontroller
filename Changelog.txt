@@ -1,3 +1,4 @@
 Version 1.0.0
 - initial release
+Additional hardware must be in place. See domoticaforum Toon Apps (https://www.domoticaforum.eu/viewtopic.php?f=99&t=12944&p=95811)
 
